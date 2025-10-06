@@ -7,8 +7,8 @@
 
 const productos = [
   { nombre: 'Camisa', categoria: 'ropa', stock: 10 },
-  { nombre: 'Pantalón', categoria: 'ropa', stock: 0 },
-  { nombre: 'Televisor', categoria: 'electrónica', stock: 5 }
+  { nombre: 'Pantalon', categoria: 'ropa', stock: 0 },
+  { nombre: 'Televisor', categoria: 'electronica', stock: 5 }
 ];
 
 const resultado = filtrarDisponibles(productos, 'ropa');
